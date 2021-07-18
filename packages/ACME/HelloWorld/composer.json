@@ -1,0 +1,26 @@
+{
+    "name": "ACME/HelloWorld",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Author Name",
+            "email": "email@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ACME\\HelloWorld\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ACME\\HelloWorld\\Providers\\HelloWorldServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
